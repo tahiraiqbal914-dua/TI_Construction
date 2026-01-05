@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webuilder Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    
+<!-- Top Header Bar -->
+<div class="top-bar">
+  <div class="top-left">
+    <span><i class="fa fa-phone"></i> (012) - 3456789</span>
+    <span><i class="fa fa-map-marker"></i> 1234 Cafficic, California</span>
+    <span><i class="fa fa-clock-o"></i> 08 AM - 10 PM</span>
+  </div>
+
+  <div class="top-right">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-google-plus"></i>
+    <i class="fa fa-pinterest"></i>
+  </div>
+</div>
+
+<!-- Main Navbar -->
+<nav class="navbar">
+    <div class="logo">
+        <img src="https://preview.colorlib.com/theme/webuilder/img/logo.png" alt="Logo">
+        <span>WE<span class="yellow">BUILDER</span></span>
+    </div>
+
+    <!-- Hidden checkbox for menu toggle -->
+    <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+
+    <!-- Menu button (hamburger) -->
+    <label for="menu-toggle" class="menu-button">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+
+    <ul class="menu">
+        <li><a href="#home" class="active">HOME</a></li>
+        <li><a href="#projects" class="active">PROJECTS</a></li>
+        <li><a href="#services" class="active">SERVICES</a></li>
+        <li><a href="#about" class="active">ABOUT US</a></li>
+        <li><a href="#blog" class="active">BLOG</a></li>
+        <li><a href="#contact" class="active">CONTACT</a></li>
+        <li class="cart">
+            <i class="fa fa-shopping-cart"></i>
+            <span class="badge">2</span>
+        </li>
+    </ul>
+</nav>
+
+<section id="home" class="hero-slider">
+
+  <!-- Slide 1 -->
+  <div class="slide slide-1">
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+      <p class="subtitle">We are weBuilder</p>
+      <h1 class="title">we innovate</h1>
+    </div>
+  </div>
+
+  <!-- Slide 2 -->
+  <div class="slide slide-2">
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+      <h1 class="title">we build dream</h1>
+      <p class="desc">
+        We made just most advance & user friendly construction theme in the world
+      </p>
+
+      <button class="yellow-btn">BROWSE SERVICES</button>
+    </div>
+  </div>
+
+  <!-- Decorative dots -->
+  <div class="slider-dots">
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+</section>
+
+
+<!-- Bottom CTA -->
+<section class="quote-bar">
+  <p>Looking for a quality and affordable constructor for your next project?</p>
+  <button class="quote-btn">GET A QUOTE</button>
+</section>
+
+<div id="about" class="container">
+        <div class="content">
+            <h1>WHO<br>WE ARE?</h1>
+            <h2>All About US</h2>
+            <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
+                accusantium doloremque laudantium, totam rem aperiam, 
+                eaque ipsa quae ab illo inventore veritatis et quasi architecto 
+                beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem 
+                quia voluptas sit aspernatur aut odit aut fugit, sed quia 
+                consequuntur magni dolores eos qui ratione voluptatem sequi 
+                nesciunt.
+            </p>
+            <p>
+                Neque porro quisquam est, qui dolorem ipsum quia dolor sit 
+                amet, consectetur, adipisci velit, sed quia non numquam eius 
+                modi tempora incidunt ut labore et dolore magnam aliquam 
+                quaerat voluptatem. Ut enim ad minima veniam, quis nostrum 
+                exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid 
+                ex ea commodi consequatur?
+            </p>
+            <div class="divider"></div>
+        </div>
+        <div class="image-section">
+            <img src="https://preview.colorlib.com/theme/webuilder/img/who-we.jpg" alt="Construction Team" class="team-image">
+        </div>
+    </div>
+    <div id="services" class="services-container">
+        <!-- Left Side - Service Cards -->
+        <div class="services-left">
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg viewBox="0 0 64 64">
+                        <path d="M20 10 L32 2 L44 10 M20 10 L20 30 M44 10 L44 30 M20 30 L44 30 M32 30 L32 2"/>
+                        <path d="M16 30 L16 50 L48 50 L48 30"/>
+                        <rect x="26" y="35" width="12" height="15"/>
+                    </svg>
+                </div>
+                <h3>Pre-Construction</h3>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium Eium doloremque laudantlum.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg viewBox="0 0 64 64">
+                        <circle cx="32" cy="20" r="8"/>
+                        <path d="M24 26 Q28 30 32 30 Q36 30 40 26"/>
+                        <path d="M20 35 L20 50 M44 35 L44 50"/>
+                        <path d="M20 50 L44 50 M20 35 L44 35"/>
+                        <path d="M32 35 L32 50"/>
+                    </svg>
+                </div>
+                <h3>New Construction</h3>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium Eium doloremque laudantlum.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg viewBox="0 0 64 64">
+                        <path d="M10 32 L32 10 L54 32"/>
+                        <rect x="20" y="28" width="24" height="24"/>
+                        <rect x="28" y="36" width="8" height="16"/>
+                    </svg>
+                </div>
+                <h3>Remodels & Redesign</h3>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium Eium doloremque laudantlum.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg viewBox="0 0 64 64">
+                        <path d="M15 45 L15 25 L32 15 L49 25 L49 45 Z"/>
+                        <path d="M25 45 L25 30 L39 30 L39 45"/>
+                        <line x1="32" y1="15" x2="32" y2="10"/>
+                        <circle cx="32" cy="8" r="2"/>
+                    </svg>
+                </div>
+                <h3>Civil & Architecture</h3>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium Eium doloremque laudantlum.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg viewBox="0 0 64 64">
+                        <circle cx="32" cy="32" r="20"/>
+                        <circle cx="32" cy="32" r="15"/>
+                        <circle cx="32" cy="32" r="10"/>
+                        <line x1="32" y1="12" x2="32" y2="22"/>
+                        <line x1="52" y1="32" x2="42" y2="32"/>
+                        <line x1="32" y1="52" x2="32" y2="42"/>
+                        <line x1="12" y1="32" x2="22" y2="32"/>
+                    </svg>
+                </div>
+                <h3>Engineering</h3>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium Eium doloremque laudantlum.</p>
+            </div>
+        </div>
+
+        <!-- Right Side - Content -->
+        <div class="services-right">
+            <h2>OUR</h2>
+            <h1>SERVICE</h1>
+            <h3>The Best Construction Company</h3>
+            
+            <p>
+                Sed ut perspiciatis unde omnis iste natus error sit 
+                voluptatem accusantium doloremque laudantium, 
+                totam rem aperiam, eaque ipsa quae ab illo inventore 
+                veritatis et quasi architecto beatae vitae dicta sunt 
+                explicabo. Nemo enim ipsam voluptatem quia 
+                voluptas sit aspernatur aut odit aut fugit, sed quia 
+                consequuntur magni dolores eos qui ratione 
+                voluptatem.
+            </p>
+            
+            <p>
+                Neque porro quisquam est, qui dolorem ipsum quia 
+                dolor sit amet, consectetur, adipisci velit, sed quia non 
+                numquam eius modi tempora incidunt ut labore et 
+                dolore magnam aliquam quaerat voluptatem. Ut enim 
+                ad minima veniam quis.
+            </p>
+            
+            <p>
+                Nemo enim ipsam voluptatem quia voluptas sit 
+                aspernatur aut odit aut fugit, sed quia consequuntur 
+                magni dolores eos qui ratione voluptatem.
+            </p>
+        </div>
+    </div>
+    <div id="projects" class="projects-container">
+        <!-- Left Sidebar -->
+        <div class="projects-sidebar">
+            <h1>OUR<br>PROJECTS</h1>
+            <h2>Great & Awesome Works</h2>
+            <ul class="filter-menu">
+                <li><a href="#all">All</a></li>
+                <li><a href="#buildings">Buildings</a></li>
+                <li><a href="#interior">Interior</a></li>
+                <li><a href="#design">Design</a></li>
+                <li><a href="#isolation">Isolation</a></li>
+                <li><a href="#plumbing">Plumbing</a></li>
+                <li><a href="#tiling">Tiling</a></li>
+            </ul>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="projects-gallery">
+            <!-- Project 1 -->
+            <div class="project-card tall">                
+                <img src="https://preview.colorlib.com/theme/webuilder/img/project/project-1.jpg" alt="Construction Site">
+                <div class="project-overlay">
+                    <a href="#">
+                    <h4>Jahanara Villa</h4>
+                </a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores debitis, exercitationem at illo repudiandae cum. Quasi, distinctio nesciunt, eum nostrum impedit obcaecati quas quam velit deserunt quibusdam modi? Possimus, nesciunt.</p>
+                <a class="view_btn" href="#">View Project</a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <img src="	https://preview.colorlib.com/theme/webuilder/img/project/project-2.jpg" alt="Modern Office Interior">
+                <div class="project-overlay">
+                    <a href="#">
+                    <h4>Jahanara Villa</h4>
+                </a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores debitis, exercitationem at illo repudiandae cum. Quasi, distinctio nesciunt, eum nostrum impedit obcaecati quas quam velit deserunt quibusdam modi? Possimus, nesciunt.</p>
+                <a class="view_btn" href="#">View Project</a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card tall">
+                <img src="https://preview.colorlib.com/theme/webuilder/img/project/project-3.jpg" alt="Modern House Exterior">
+                <div class="project-overlay">
+                    <a href="#">
+                    <h4>Jahanara Villa</h4>
+                </a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores debitis, exercitationem at illo repudiandae cum. Quasi, distinctio nesciunt, eum nostrum impedit obcaecati quas quam velit deserunt quibusdam modi? Possimus, nesciunt.</p>
+                <a class="view_btn" href="#">View Project</a>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card">
+                <img src="https://preview.colorlib.com/theme/webuilder/img/project/project-4.jpg" alt="Interior Design">
+                <div class="project-overlay">
+                    <a href="#">
+                    <h4>Jahanara Villa</h4>
+                </a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores debitis, exercitationem at illo repudiandae cum. Quasi, distinctio nesciunt, eum nostrum impedit obcaecati quas quam velit deserunt quibusdam modi? Possimus, nesciunt.</p>
+                <a class="view_btn" href="#">View Project</a>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-card">
+                <img src="	https://preview.colorlib.com/theme/webuilder/img/project/project-5.jpg" alt="Modern Architecture">
+                <div class="project-overlay">
+                    <a href="#">
+                    <h4>Jahanara Villa</h4>
+                </a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores debitis, exercitationem at illo repudiandae cum. Quasi, distinctio nesciunt, eum nostrum impedit obcaecati quas quam velit deserunt quibusdam modi? Possimus, nesciunt.</p>
+                <a class="view_btn" href="#">View Project</a>
+                </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="project-card tall">
+                <img src="https://preview.colorlib.com/theme/webuilder/img/project/project-6.jpg" alt="Building Construction">
+                <div class="project-overlay">
+                    <a href="#">
+                    <h4>Jahanara Villa</h4>
+                </a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores debitis, exercitationem at illo repudiandae cum. Quasi, distinctio nesciunt, eum nostrum impedit obcaecati quas quam velit deserunt quibusdam modi? Possimus, nesciunt.</p>
+                <a class="view_btn" href="#">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="cta-section">
+        <div class="cta-overlay"></div>
+        <div class="cta-content">
+            <h1>WORK<br>WITH US</h1>
+            <h2>Lets Get Offer</h2>
+            <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam 
+                rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.
+            </p>
+            <a href="#quote" class="cta-button">GET A QUOTE</a>
+        </div>
+    </section>
+    <section class="team-section">
+        <div class="team-header">
+            <h1>OUR<br>TEAM</h1>
+            <h2>We Are Awesome & Skilled</h2>
+        </div>
+
+        <div class="team-grid">
+            <!-- Team Member 1 -->
+            <div class="team-member">
+                <div class="team-member-image">
+                    <img src="https://preview.colorlib.com/theme/webuilder/img/team/team-1.jpg" alt="A. R. KHAN">
+                </div>
+                <div class="team-member-info">
+                    <h3>A. R. KHAN</h3>
+                    <p>Civil Engenear</p>
+                </div>
+            </div>
+
+            <!-- Team Member 2 -->
+            <div class="team-member">
+                <div class="team-member-image">
+                    <img src="https://preview.colorlib.com/theme/webuilder/img/team/team-3.jpg" alt="SHARMIN SARKAR">
+                </div>
+                <div class="team-member-info">
+                    <h3>SHARMIN SARKAR</h3>
+                    <p>Civil Engenear</p>
+                </div>
+            </div>
+
+            <!-- Team Member 3 -->
+            <div class="team-member">
+                <div class="team-member-image">
+                    <img src="	https://preview.colorlib.com/theme/webuilder/img/team/team-1.jpg" alt="RASHIDUL ISLAM">
+                </div>
+                <div class="team-member-info">
+                    <h3>RASHIDUL ISLAM</h3>
+                    <p>Civil Engenear</p>
+                </div>
+            </div>
+        </div>
+</section>
+<!-- Stats Section -->
+    <section class="stats-section">
+        <div class="stats-container">
+            <div class="stat-item">
+                <div class="stat-icon">
+                    <svg viewBox="0 0 64 64">
+                        <rect x="12" y="8" width="40" height="48" fill="none" stroke="white" stroke-width="2"/>
+                        <line x1="12" y1="16" x2="52" y2="16" stroke="white" stroke-width="2"/>
+                        <line x1="20" y1="24" x2="44" y2="24" stroke="white" stroke-width="2"/>
+                        <line x1="20" y1="32" x2="44" y2="32" stroke="white" stroke-width="2"/>
+                        <line x1="20" y1="40" x2="44" y2="40" stroke="white" stroke-width="2"/>
+                    </svg>
+                </div>
+                <div class="stat-number">245</div>
+                <div class="stat-label">TOTAL PROJECTS</div>
+            </div>
+
+            <div class="stat-item">
+                <div class="stat-icon">
+                    <svg viewBox="0 0 64 64">
+                        <rect x="16" y="20" width="32" height="36" fill="none" stroke="white" stroke-width="2"/>
+                        <path d="M16 20 L32 8 L48 20" fill="none" stroke="white" stroke-width="2"/>
+                        <rect x="26" y="32" width="12" height="24" fill="none" stroke="white" stroke-width="2"/>
+                        <rect x="22" y="28" width="6" height="6" fill="none" stroke="white" stroke-width="2"/>
+                        <rect x="36" y="28" width="6" height="6" fill="none" stroke="white" stroke-width="2"/>
+                    </svg>
+                </div>
+                <div class="stat-number">535</div>
+                <div class="stat-label">HOUSES BUILD</div>
+            </div>
+
+            <div class="stat-item">
+                <div class="stat-icon">
+                    <svg viewBox="0 0 64 64">
+                        <circle cx="22" cy="18" r="6" fill="none" stroke="white" stroke-width="2"/>
+                        <circle cx="42" cy="18" r="6" fill="none" stroke="white" stroke-width="2"/>
+                        <circle cx="32" cy="38" r="6" fill="none" stroke="white" stroke-width="2"/>
+                        <path d="M22 24 Q27 30 32 32" fill="none" stroke="white" stroke-width="2"/>
+                        <path d="M42 24 Q37 30 32 32" fill="none" stroke="white" stroke-width="2"/>
+                        <path d="M22 24 Q22 40 20 48" fill="none" stroke="white" stroke-width="2"/>
+                        <path d="M42 24 Q42 40 44 48" fill="none" stroke="white" stroke-width="2"/>
+                        <path d="M32 44 L32 52" stroke="white" stroke-width="2"/>
+                    </svg>
+                </div>
+                <div class="stat-number">288</div>
+                <div class="stat-label">EXPERIENCES STAFF</div>
+            </div>
+
+            <div class="stat-item">
+                <div class="stat-icon">
+                    <svg viewBox="0 0 64 64">
+                        <circle cx="32" cy="32" r="24" fill="none" stroke="white" stroke-width="2"/>
+                        <circle cx="24" cy="28" r="3" fill="white"/>
+                        <circle cx="40" cy="28" r="3" fill="white"/>
+                        <path d="M20 38 Q32 48 44 38" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <div class="stat-number">750</div>
+                <div class="stat-label">HAPPY CLIENTS</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial-section">
+        <div class="testimonial-container">
+            <div class="testimonial-left">
+                <h2>CLIENT<br>SAYS</h2>
+                <h3>Golden Word</h3>
+            </div>
+
+            <div class="testimonial-right">
+                <div class="testimonial-card">
+                    <div class="quote-icon">"</div>
+                    <p class="testimonial-text">
+                        On the other hand, we denounce with righteous indignation 
+                        and dislike men who are so beguiled and demoralized by the 
+                        charms of pleasure of the moment.
+                    </p>
+                    <p class="testimonial-author">Eng. Abul Kalam</p>
+                </div>
+                <div class="testimonial-image">
+                    <img src="	https://preview.colorlib.com/theme/webuilder/img/testimonials/test-1.jpg" alt="Client">
+                </div>
+            </div>
+        </div>
+</section>
+<section id="blog" class="news-section">
+        <div class="news-header">
+            <h1>LATEST<br>NEWS</h1>
+            <h2>Construction World</h2>
+        </div>
+
+        <div class="news-grid">
+            <!-- News Card 1 -->
+            <div class="news-card">
+                <div class="news-image">
+                    <img src="	https://preview.colorlib.com/theme/webuilder/img/blog/l-news/l-news-1.jpg" alt="Business Meeting">
+                    <div class="news-date">
+                        <span class="day">14</span>
+                        <span class="month">JAN</span>
+                    </div>
+                </div>
+                <div class="news-content">
+                    <h3 class="news-title">The Road To Success Is Always Under Construction</h3>
+                    <p class="news-meta">Posted By Admin</p>
+                    <p class="news-excerpt">
+                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                    </p>
+                    <div class="news-footer">
+                        <span class="comments">2 Comments</span>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- News Card 2 -->
+            <div class="news-card">
+                <div class="news-image">
+                    <img src="https://preview.colorlib.com/theme/webuilder/img/blog/l-news/l-news-2.jpg" alt="Construction Planning">
+                    <div class="news-date">
+                        <span class="day">14</span>
+                        <span class="month">JAN</span>
+                    </div>
+                </div>
+                <div class="news-content">
+                    <h3 class="news-title">The Road To Success Is Always Under Construction</h3>
+                    <p class="news-meta">Posted By Admin</p>
+                    <p class="news-excerpt">
+                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                    </p>
+                    <div class="news-footer">
+                        <span class="comments">2 Comments</span>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- News Card 3 -->
+            <div class="news-card">
+                <div class="news-image">
+                    <img src="https://preview.colorlib.com/theme/webuilder/img/blog/l-news/l-news-3.jpg" alt="Construction Tools">
+                    <div class="news-date">
+                        <span class="day">14</span>
+                        <span class="month">JAN</span>
+                    </div>
+                </div>
+                <div class="news-content">
+                    <h3 class="news-title">The Road To Success Is Always Under Construction</h3>
+                    <p class="news-meta">Posted By Admin</p>
+                    <p class="news-excerpt">
+                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                    </p>
+                    <div class="news-footer">
+                        <span class="comments">2 Comments</span>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<!-- Partners Section -->
+    <section class="partners-section">
+        <div class="partners-container">
+            <div class="partner-logo">
+                <img src="https://preview.colorlib.com/theme/webuilder/img/clients/client-1.png" alt="Bortolini">
+            </div>
+            <div class="partner-logo">
+                <img src="https://preview.colorlib.com/theme/webuilder/img/clients/client-2.png" alt="Dilly">
+            </div>
+            <div class="partner-logo">
+                <img src="https://preview.colorlib.com/theme/webuilder/img/clients/client-3.png" alt="Amelie">
+            </div>
+            <div class="partner-logo">
+                <img src="https://preview.colorlib.com/theme/webuilder/img/clients/client-4.png" alt="Walkers">
+            </div>
+            <div class="partner-logo">
+                <img src="https://preview.colorlib.com/theme/webuilder/img/clients/client-5.png" alt="Create Village">
+            </div>
+            <div class="partner-logo">
+                <img src="	https://preview.colorlib.com/theme/webuilder/img/clients/client-6.png" alt="Binge">
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="map-container">
+            <div class="map-bg">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d27239.78216183707!2d73.09511490000001!3d31.414876300000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1767607692241!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Bar -->
+    <section id="contact" class="contact-bar">
+        <div class="contact-container">
+            <!-- Address -->
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <svg viewBox="0 0 64 64">
+                        <path d="M32 8 C22 8 14 16 14 26 C14 38 32 56 32 56 C32 56 50 38 50 26 C50 16 42 8 32 8 Z" stroke="#2c3e50" fill="none" stroke-width="2"/>
+                        <circle cx="32" cy="26" r="6" stroke="#2c3e50" fill="none" stroke-width="2"/>
+                    </svg>
+                </div>
+                <div class="contact-info">
+                    <h3>Office Address :</h3>
+                    <p>1234 Cafffcic, California, USA</p>
+                </div>
+            </div>
+
+            <!-- Phone -->
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <svg viewBox="0 0 64 64">
+                        <circle cx="32" cy="32" r="24" stroke="#2c3e50" fill="none" stroke-width="2"/>
+                        <text x="32" y="40" text-anchor="middle" font-size="20" fill="#2c3e50" font-weight="bold">24</text>
+                    </svg>
+                </div>
+                <div class="contact-info">
+                    <p>(012) 3456789</p>
+                    <p>(012) 3456789</p>
+                </div>
+            </div>
+
+            <!-- Email -->
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <svg viewBox="0 0 64 64">
+                        <rect x="8" y="16" width="48" height="32" rx="2" stroke="#2c3e50" fill="none" stroke-width="2"/>
+                        <path d="M8 16 L32 36 L56 16" stroke="#2c3e50" fill="none" stroke-width="2"/>
+                    </svg>
+                </div>
+                <div class="contact-info">
+                    <p>info@domain.com</p>
+                    <p>info@domain.com</p>
+                </div>
+            </div>
+        </div>
+</section>
+<!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- About Section -->
+            <div class="footer-about">
+                <div class="footer-logo">
+                    <div class="logo-icon">
+                        <svg viewBox="0 0 64 64">
+                            <circle cx="32" cy="32" r="20"/>
+                        </svg>
+                    </div>
+                    <div class="logo-text">WE<span>BUILDER</span></div>
+                </div>
+                <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. ed quia consequuntur magni dolores eos qui ratione.
+                </p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Twitter">t</a>
+                    <a href="#" aria-label="Google Plus">g+</a>
+                    <a href="#" aria-label="Pinterest">p</a>
+                </div>
+            </div>
+
+            <!-- Recent Posts -->
+            <div class="footer-posts">
+                <h3>Recent Posts</h3>
+                <div class="post-item">
+                    <div class="post-thumb">
+                        <img src="https://preview.colorlib.com/theme/webuilder/img/blog/l-news/l-news-3.jpg" alt="Post">
+                    </div>
+                    <div class="post-info">
+                        <h4><a href="#">The road to success is always under construction</a></h4>
+                    </div>
+                </div>
+                <div class="post-item">
+                    <div class="post-thumb">
+                        <img src="https://preview.colorlib.com/theme/webuilder/img/blog/recent-post/recent-2.png" alt="Post">
+                    </div>
+                    <div class="post-info">
+                        <h4><a href="#">The road to success is always under construction</a></h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Office Address -->
+            <div class="footer-contact">
+                <h3>Office Address</h3>
+                <div class="contact-detail">
+                    <svg viewBox="0 0 16 16">
+                        <path d="M8 0 L14 4 L14 12 L8 16 L2 12 L2 4 Z"/>
+                    </svg>
+                    <span>1234 Cafffcic, California, USA</span>
+                </div>
+                <div class="contact-detail">
+                    <svg viewBox="0 0 16 16">
+                        <path d="M8 0 L14 4 L14 12 L8 16 L2 12 L2 4 Z"/>
+                    </svg>
+                    <div>
+                        <div>(012) 3456789</div>
+                        <div>(012) 3456789</div>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <svg viewBox="0 0 16 16">
+                        <path d="M8 0 L14 4 L14 12 L8 16 L2 12 L2 4 Z"/>
+                    </svg>
+                    <span>info@domain.com</span>
+                </div>
+            </div>
+
+            <!-- Call to Action -->
+            <div class="footer-cta">
+                <h3>Give Us A Call</h3>
+                <div class="phone-number">(012) 3456789</div>
+                <div class="or-text">or</div>
+                <a href="#" class="cta-button">Get A Quote</a>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="copyright">
+            Copyright ©2026 All rights reserved | This template is made with ❤ by TahiraIqbal
+        </div>
+    </footer>
+</body>
+</html>
